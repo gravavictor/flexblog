@@ -25,6 +25,7 @@ img {
     box-sizing: border-box;
 } 
 
+/*  SuperInfo */
 .superinfo-bg {
     background-color: #3c8dbc;
     color: white;
@@ -45,4 +46,132 @@ img {
 
 .superinfo p, .superinfo a {
     margin: 0 10px 10px 10px;
+}
+
+/* Menu */
+
+.menu-bg {
+    background: #266488;
+}
+
+.menu {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu-logo a {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+.menu-nav a:hover{
+	color: #3c8dbc;
+}
+
+/* Intro */
+
+.intro {
+    font-size: 3em;
+    line-height: 1;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+
+/* About */
+
+.about {
+    border-top: 2px solid #3c8dbc;
+    border-bottom: 2px solid #3c8dbc;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-info {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.about-info h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.about-info p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.about-img {
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+
+/* Products */
+
+.products {
+    max-width: 950px;
+    margin: 60px auto;
+}
+
+.products h1 {
+    font-size: 3em;
+    margin: 0 10px 60px 10px;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.products-item {
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.products-item h2 {
+    font-size: 3em;
+    background: #f7f7f7;
+    color: #a4a4a4;
+    padding: 60px 20px;
+}
+
+.purple {
+    border-top: 8px solid #ae81ff;
+}
+
+.pink {
+    border-top: 8px solid #f9265e;
+}
+
+.blue {
+    border-top: 8px solid #34b7ce;
 }
