@@ -24,3 +24,25 @@ img {
 *{
     box-sizing: border-box;
 } 
+
+.superinfo-bg {
+    background-color: #3c8dbc;
+    color: white;
+}
+
+.superinfo a {
+    color: white;
+}
+
+.superinfo {
+    display: flex;
+    max-width: 950px;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.superinfo p, .superinfo a {
+    margin: 0 10px 10px 10px;
+}
